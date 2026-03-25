@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <section className="max-w-4xl mx-auto py-16 px-4">
+    <section className="max-w-4xl mx-auto pt-32 pb-16 px-4">
       <h1 className="type-section mb-2">Privacy Policy</h1>
       <p className="type-small text-base-content/50 mb-10">
         Last updated: March 2026
@@ -107,6 +107,19 @@ export default function PrivacyPage() {
           <ul className="list-none type-body text-base-content/80 mt-3 space-y-1.5">
             <li>
               <strong>{siteConfig.name}</strong>
+            </li>
+            <li>{siteConfig.location.city}, {siteConfig.location.province}</li>
+            <li>
+              Phone:{" "}
+              <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`} className="hover:text-primary transition-colors">
+                {siteConfig.phone}
+              </a>
+            </li>
+            <li>
+              Email:{" "}
+              <a href={`mailto:${siteConfig.email}`} className="hover:text-primary transition-colors">
+                {siteConfig.email}
+              </a>
             </li>
           </ul>
         </div>

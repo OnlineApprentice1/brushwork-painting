@@ -1,0 +1,24 @@
+# Brushwork Painting Co.
+
+> Interior and exterior painting specialists in Oakville, Ontario. Free colour consultation, specialty finishes, and a 5-year warranty on every project.
+
+## Services
+- Interior Painting
+- Exterior Painting
+- Colour Consultation (free with every project)
+- Specialty Finishes (limewash, faux plaster, Venetian plaster, wallpaper)
+- Cabinet Refinishing
+
+## Service Area
+Oakville, Burlington, Milton, Mississauga, and surrounding Halton Region, Ontario, Canada.
+
+## Contact
+- Phone: (905) 555-0283
+- Email: hello@brushworkpainting.ca
+- Website: https://brushworkpainting.ca
+
+## Pages
+- Home: https://brushworkpainting.ca
+- Services: https://brushworkpainting.ca/services
+- About: https://brushworkpainting.ca/about
+- Contact: https://brushworkpainting.ca/contact
