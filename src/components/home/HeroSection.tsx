@@ -68,7 +68,7 @@ export default function HeroSection() {
               height: "2rem",
               borderRadius: "0.375rem 0.75rem 0.375rem 0.75rem",
               backgroundColor: "var(--clr-primary)",
-              boxShadow: "0 2px 6px rgba(0,0,0,0.18)",
+              boxShadow: "0 2px 6px color-mix(in oklch, var(--clr-surface-1) 30%, transparent)",
               transform: "rotate(-3deg)",
             }}
           />
@@ -81,7 +81,7 @@ export default function HeroSection() {
               height: "2rem",
               borderRadius: "0.75rem 0.375rem 0.75rem 0.375rem",
               backgroundColor: "var(--clr-accent)",
-              boxShadow: "0 2px 6px rgba(0,0,0,0.18)",
+              boxShadow: "0 2px 6px color-mix(in oklch, var(--clr-surface-1) 30%, transparent)",
               transform: "rotate(2deg)",
             }}
           />
@@ -94,7 +94,7 @@ export default function HeroSection() {
               height: "2rem",
               borderRadius: "0.5rem",
               backgroundColor: "var(--clr-primary-light)",
-              boxShadow: "0 2px 6px rgba(0,0,0,0.18)",
+              boxShadow: "0 2px 6px color-mix(in oklch, var(--clr-surface-1) 30%, transparent)",
               transform: "rotate(-1deg)",
             }}
           />

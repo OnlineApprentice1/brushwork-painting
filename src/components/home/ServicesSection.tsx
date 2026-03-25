@@ -72,7 +72,7 @@ export default function ServicesSection() {
         delay={0}
         className="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col gap-3"
       >
-        <h2 className="type-section text-left">What We Do</h2>
+        <h2 className="type-section text-left">Painting Services</h2>
         <p className="type-body-lg text-left max-w-2xl">
           Every project starts with colour consultation and ends with a 5-year warranty.
         </p>
