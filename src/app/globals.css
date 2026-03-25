@@ -1,26 +1,20 @@
 @import "tailwindcss";
+@import "../styles/typography.css";
+@import "../styles/colour-tokens.css";
+@import "../styles/profile.css";
+@import "../styles/archetype.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* DaisyUI theme defined in colour-tokens.css via @plugin "daisyui/theme" */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: var(--clr-surface-1);
+  --color-foreground: var(--clr-text-primary);
+  --font-heading: var(--font-dm-serif-display);
+  --font-body: var(--font-work-sans);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--clr-surface-1);
+  color: var(--clr-text-primary);
+  font-family: var(--font-body, ui-sans-serif, system-ui, sans-serif);
 }
